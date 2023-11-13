@@ -1,0 +1,29 @@
+/*
+    Es posible usar el carácter > para referenciar un elemento que es 
+    hijo directo de otro elemento.
+*/
+
+section>p {
+    color: red;
+    font-size: 20px;
+}
+
+/*El carcater + referencia a un elemento
+que está precedido por otro elemento. 
+Ambos deben compartir el mismo elemento padre.*/
+h1+p+a
+ {
+    color: blue;
+    font-size: 20px;
+}
+
+/*
+ ~ para crear un selector que afecta a todos los elementos que
+se ubican a continuación de otro elemento. que preseden 
+Esta regla afecta a todos los elementos encontrados, no solo al primero.
+*/
+
+li~li {
+    color: green;
+    font-size: 20px;
+}

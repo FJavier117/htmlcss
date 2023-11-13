@@ -1,0 +1,15 @@
+/*Seleccytores 
+    Para esas situaciones en las que los atributos id y class no son suficientes, 
+    CSS permite referenciar un elemento por medio de cualquier otro atributo que necesitemos. 
+    La sintaxis para definir esta clase de selectores incluye el nombre del elemento 
+    seguido del nombre del atributo en corchetes.
+*/
+p[name] {
+    color: violet;
+    font-size: 20px;
+}
+
+p[id="parrafo"]{
+    color: blue;
+    font-size: 45px;
+}

@@ -1,0 +1,12 @@
+/* Para referenciar un elemento usando su atributo id, el selector debe incluir 
+el valor del atributo precedido por el carácter numeral (#).*/
+
+#mensaje-1 {
+    color: red;
+    font-size: 25px;
+}
+/*Este atributo es más flexible y se puede asignar a varios
+elementos dentro del mismo documento.*/
+.container{
+    background-color: aliceblue;
+}

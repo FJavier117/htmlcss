@@ -1,0 +1,65 @@
+/*
+En CSS, los estilos personalizados se declaran con propiedades. 
+Un estilo se define declarando: nombre de la propiedad + valor separados por dos puntos. 
+*/
+
+/*
+    Si la propiedad se aplica a un elemento, el texto contenido por ese 
+    elemento se mostrará en la pantalla con el tipo de letra definido por defecto, pero con un
+    tamaño de 24 píxeles.
+*/
+section p  {
+    background-color: #e5e5e6;
+    font-size: 24px;
+}
+
+
+/*
+    Una regla declarada con el nombre del elemento como selector 
+    afecta a todos los elementos de ese tipo encontrados en el documento.
+*/
+
+/*
+Si queremos asignar los mismos estilos a 
+elementos con nombres diferentes, podemos
+declarar los nombres separados por una coma. 
+*
+
+p, span {
+    color: blue;
+    font-size: 20px;
+}
+
+/*
+Podemos referenciar solo elementos que se encuentran dentro de un elemento
+en particular listando los selectores separados por un espacio. 
+Estos tipos de selectores se llaman selectores de 
+descendencia porque afectan a elementos dentro de otros elementos, sin
+importar el lugar que ocupan en la jerarquía.
+*/
+
+article ul li {
+    color: red;
+    font-size: 25;
+}
+
+/*
+     Las unidades más utilizadas son px (píxeles), pt (puntos), in (pulgadas), 
+     cm (centímetros), mm (milímetros), em (relativo al tamaño de letra del elemento), 
+        rem (relativo al tamaño de letra del documento),
+             y % (relativo al tamaño del contenedor del elemento).
+*/
+
+/*
+    Prueba realizando lo siguiente
+    asigna el estilo a un elemento de tipo section en lugar de p
+    section {
+        font-size: 20px;
+    }
+    Observa que sucede y comenta
+
+    Prueba agregando una nueva regla para p y comenta que sucede
+    p {
+        font-size: 36px;
+    }
+*/
