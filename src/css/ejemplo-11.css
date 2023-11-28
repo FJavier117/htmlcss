@@ -1,0 +1,75 @@
+/*
+Fondo
+CSS define varias propiedades para generarlo.
+background-color—Esta propiedad asigna un fondo de color a un elemento.
+background-image—Esta propiedad asigna una o varias imágenes al fondo de un
+elemento. La URL del archivo se declara con la función url() (por ejemplo,
+url("ejemplo.jpg")). Si se requiere más de una imagen, los valores se deben
+separar por una coma.
+background-position—Esta propiedad declara la posición de comienzo de una imagen
+de fondo. Los valores se pueden especificar en porcentaje, píxeles o usando una
+combinación de las palabras clave center, left, right, top, y bottom.
+background-size—Esta propiedad declara el tamaño de la imagen de fondo. Los valores
+se pueden especificar en porcentaje, píxeles, o usando las palabras clave cover y contain.
+La palabra clave cover expande la imagen hasta que su ancho o su altura cubren el área del
+elemento, mientras que contain estira la imagen para ocupar toda el área del elemento.
+background-repeat—Esta propiedad determina cómo se distribuye la imagen de fondo
+usando cuatro palabras clave: repeat, repeat-x, repeat-y y no-repeat. La palabra
+clave repeat repite la imagen en el eje vertical y horizontal, mientras que repeat-x y
+repeat-y lo hacen solo en el eje horizontal o vertical, respectivamente. Finalmente, norepeat muestra la imagen de fondo una sola vez.
+background-origin—Esta propiedad determina si la imagen de fondo se posicionará
+considerando el borde, el relleno o el contenido del área del elemento. Los valores
+disponibles son border-box, padding-box, y content-box.
+background-clip—Esta propiedad declara el área a cubrir por el fondo usando los
+valores border-box, padding-box, y content-box. El primer valor corta la imagen al
+borde de la caja del elemento, el segundo corta la imagen en el relleno de la caja y el
+tercero corta la imagen alrededor del contenido de la caja.
+background-attachment—Esta propiedad determina si la imagen es estática o se
+desplaza con el resto de los elementos usando dos valores: scroll (por defecto) y fixed.
+El valor scroll hace que la imagen se desplace con la página, y el valor fixed fija la
+imagen de fondo en su lugar original.
+background—Esta propiedad permite declarar todos los atributos del fondo al
+mismo tiempo.
+*/
+
+header {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: #CCCCCC;
+    }
+    #titulo1 {
+    font: bold 26px Verdana, sans-serif;
+    }
+
+    #cabecera2 {
+        margin: 30px;
+        padding: 15px;
+        text-align: center;
+        background-image: url("/ejemplosconcss/src/img/ejemplo.png");
+        }
+        #titulo2 {
+        font: bold 26px Verdana, sans-serif;
+        color: ghostwhite;
+        }
+
+        #cabecera3 {
+            margin: 30px;
+            padding: 15px;
+            text-align: center;
+            background-image: url("/ejemplosconcss/src/img/ejemplo.png");
+            background-repeat: repeat-y;
+            }
+            #titulo3 {
+            font: bold 26px Verdana, sans-serif;
+            }
+
+            #cabecera4 {
+                margin: 30px;
+                padding: 15px;
+                text-align: center;
+                background: #CCCCCC url("/ejemplosconcss/src/img/ejemplo.png") repeat-y;
+                }
+                #titulo4 {
+                font: bold 26px Verdana, sans-serif;
+                }

@@ -1,0 +1,40 @@
+/*
+Colores
+Existen dos formas de declarar un color en CSS: podemos usar una combinación de tres
+colores básicos (rojo, verde y azul), o definir el matiz, la saturación y la luminosidad. 
+Para definir colores con otros tipos de valores, CSS ofrece las siguientes funciones.
+rgb(rojo, verde, azul) 0 - 255
+rgba(rojo, verde, azul, alfa) 0 - 255 + 0 O 1
+
+hsl(matiz, saturación, luminosidad) Define un color desde los valores
+especificados por los atributos. Los valores se declaran en números decimales y porcentajes.
+hsla(matiz, saturación, luminosidad, alfa) Es similar a la función
+hsl(), pero incluye un componente adicional para definir la opacidad (alfa). El valor se
+puede declarar entre 0 y 1, con 0 como totalmente transparente y 1 como totalmente opaco.
+color—Esta propiedad declara el color del contenido del elemento.
+*/
+#titulo1 {
+    font: bold 26px Verdana, sans-serif;
+    color: red;
+}
+
+/*
+Los valores requeridos por esta función definen el matiz, la saturación y la luminosidad. El
+matiz es un color extraído de una rueda imaginaria, expresado en grados desde 0 a 360: alrededor
+de 0 y 360 se encuentran los rojos, cerca de 120 los verdes, y cerca de 240 los azules. La saturación
+se representa en porcentaje, desde 0 % (escala de grises) a 100 % (todo color o totalmente
+saturado), y la luminosidad es también un valor en porcentaje, desde 0 % (completamente negro) a
+100 % (completamente blanco); un valor de 50 % representa una luminosidad promedio.
+
+*/
+#titulo2 {
+    font: bold 26px Verdana, sans-serif;
+    color: hsl(0, 0%, 80%);
+}
+
+#titulo3 {
+    font: bold 26px Verdana, sans-serif;
+    color: rgb(204, 204, 204);
+    }
+
+

@@ -9,7 +9,7 @@ p[name] {
     font-size: 20px;
 }
 
-p[id="parrafo"]{
+p[name="parrafo"]{
     color: blue;
     font-size: 45px;
 }

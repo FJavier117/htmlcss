@@ -1,0 +1,97 @@
+/*
+Tamaño
+Por defecto, el tamaño de la mayoría de los elementos se determina según el espacio
+disponible en el contenedor. El ancho de un elemento se define como 100 %, lo cual significa
+que será tan ancho como su contenedor, y tendrá una altura determinada por su contenido.
+
+Propiedades para declarar un tamaño personalizado:
+width— Ancho de un elemento. El valor se puede especificar en
+píxeles, porcentaje, o con la palabra clave auto (por defecto). Cuando el valor se especifica
+en porcentaje, el ancho se calcula según el navegador a partir del ancho del contenedor, y
+cuando se declara con el valor auto, el elemento se expande hasta ocupar todo el espacio
+horizontal disponible dentro del contenedor.
+height—Altura de un elemento. El valor se puede especificar en
+píxeles, porcentaje, o con la palabra clave auto (por defecto). Cuando el valor se especifica
+en porcentaje, el navegador calcula la altura a partir de la altura del contenedor, y cuando
+se declara con el valor auto, el elemento adopta la altura de su contenedor.
+
+Los navegadores generan una caja alrededor de cada elemento que determina el área que ocupa
+en la pantalla. Cuando declaramos un tamaño personalizado, la caja se modifica y el contenido del
+elemento se adapta para encajar dentro de la nueva área.
+
+*/
+
+#titulo1 {
+    font: bold 26px Verdana, sans-serif;
+    }
+#descripcion2 {
+    width: 200px;
+}
+
+/*
+TRATAMIENTO DE SUPERPOSICIÓN
+Propiedades para resolver este problema:
+
+overflow—Esta propiedad especifica cómo se mostrará el contenido que desborda el
+elemento. Los valores disponibles son visible (por defecto), hidden (esconde el
+contenido que no entra dentro de la caja), scroll (muestra barras laterales para
+desplazar el contenido), auto (deja que el navegador decida qué hacer con el contenido).
+overflow-x—Esta propiedad especifica cómo se mostrará el contenido que desborda el
+elemento horizontalmente. Acepta los mismos valores que la propiedad overflow.
+overflow-y—Esta propiedad especifica cómo se mostrará el contenido que desborda el
+elemento verticalmente. Acepta los mismos valores que la propiedad overflow.
+overflow-wrap—Esta propiedad indica si un palabra debería ser dividida en un punto
+arbitrario cuando no hay suficiente espacio para mostrarla en la línea. Los valores
+disponibles son normal (la línea será dividida naturalmente) y break-word (las palabras
+se dividirán en puntos arbitrarios para acomodar la línea de texto en el espacio disponible).
+*/
+
+
+#titulo2 {
+    font: bold 26px Verdana, sans-serif;
+    }
+    #descripcion2 {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    }
+
+    #titulo3 {
+        font: bold 26px Verdana, sans-serif;
+        }
+        #descripcion3 {
+        width: 200px;
+        height: 100px;
+        overflow: scroll;
+    
+        }
+
+/*
+CSS permite designar espacio alrededor de la caja para separar el elemento de otros elementos a su alrededor (margen), además de incluir
+espacio entre los límites de la caja y su contenido (relleno). 
+
+margin—El margen es el espacio que
+hay alrededor de la caja. Puede recibir cuatro valores que representan el margen superior,
+derecho, inferior, e izquierdo, en ese orden y separados por un espacio (por ejemplo,
+margin: 10px 30px 10px 30px;).  Si solo se declaran uno, dos o tres
+valores, los otros toman los mismos valores (por ejemplo, margin: 10px 30px asigna 10
+píxeles al margen superior e inferior y 30 píxeles al margen izquierdo y derecho). Los
+valores se pueden declarar independientemente usando las propiedades asociadas
+margin-top, margin-right, margin-bottom y margin-left (por ejemplo, marginleft: 10px;). La propiedad también acepta el valor auto para obligar al navegador a
+calcular el margen (usado para centrar un elemento dentro de su contenedor).
+padding—Esta propiedad declara el relleno de un elemento. El relleno es el espacio entre
+el contenido del elemento y los límites de su caja. Los valores se declaran de la misma
+forma que lo hacemos para la propiedad margin, aunque también se pueden declarar de
+forma independiente con las propiedades padding-top, padding-right, paddingbottom y padding-left (por ejemplo, padding-top: 10px;).
+
+
+*/
+
+
+header {
+    margin: 30px;
+    padding: 15px;
+}
+    #titulo1 {
+    font: bold 26px Verdana, sans-serif;
+}
