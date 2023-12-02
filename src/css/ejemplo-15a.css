@@ -1,0 +1,51 @@
+/*
+Cajas flotantes
+
+La propiedad clear no afecta a otros aspectos del elemento y no agrega barras de
+desplazamiento como la propiedad overflow. Por tal motivo, es la que se implementa en el
+modelo de caja tradicional para organizar la estructura de un documento. 
+Con las propiedades
+float y clear podemos controlar con precisión dónde se mostrarán los elementos en
+pantalla y diseñar nuestras páginas web.
+*/
+
+#cajapadre {
+    width: 600px;
+    border: 1px solid;
+}
+
+#caja-1 {
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #AAAAAA;
+}
+
+#caja-2 {
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #CCCCCC;
+}
+
+#caja-3 {
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #AAAAAA;
+}
+
+#caja-4 {
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin: 5px;
+    background-color: #CCCCCC;
+}
+
+.restaurar {
+    clear: both;
+}
