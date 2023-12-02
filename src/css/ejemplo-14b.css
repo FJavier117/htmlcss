@@ -10,7 +10,11 @@ disponibles son none, left, right, y both (ambos).
 
 */
 
-section img {
+section {
+    background-color: #CCCCCC;
+    overflow: auto;
+    }
+    section img {
     float: left;
-    margin: 30px 40px;
+    margin: 0px 10px;
     }
