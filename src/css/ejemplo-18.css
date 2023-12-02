@@ -1,0 +1,25 @@
+/*
+La propiedad column-gap define el tamaño del espacio entre las columnas. Esta
+separación es solo espacio vacío, pero CSS ofrece las siguientes propiedades para generar una
+línea que ayuda al usuario a visualizar la división.
+column-rule-style—Esta propiedad define el estilo de la línea usada para representar la
+división. Los valores disponibles son hidden (por defecto), dotted, dashed, solid,
+double, groove, ridge, inset, y outset.
+column-rule-color—Esta propiedad especifica el color de la línea usada para representar
+la división.
+column-rule-width—Esta propiedad especifica el ancho de la línea usada para
+representar la división.
+column-rule—Esta propiedad nos permite definir todos los valores de la línea al mismo
+tiempo.
+Para dibujar una línea en medio de las columnas, tenemos que especificar al menos su
+estilo. 
+*/
+
+#articulonoticias {
+    width: 580px;
+    padding: 10px;
+    border: 1px solid;
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 1px solid #000000;
+}

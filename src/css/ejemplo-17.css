@@ -1,0 +1,26 @@
+/*
+Columnas
+
+column-count—Esta propiedad especifica el número de columnas que el navegador tiene
+que generar para distribuir el contenido del elemento.
+column-width—Esta propiedad declara el ancho de las columnas. El valor se puede
+declarar como auto (por defecto) o en cualquiera de las unidades de CSS, como píxeles o
+porcentaje.
+column-span—Esta propiedad se aplica a elementos dentro de la caja para determinar si
+el elemento se ubicará en una columna o repartido entre varias columnas. Los valores
+disponibles son all (todas las columnas) y none (por defecto).
+column-fill—Esta propiedad determina cómo se repartirá el contenido entre las
+columnas. Los valores disponibles son auto (las columnas son completadas de forma
+secuencial) y balance (el contenido se divide en partes iguales entre todas las columnas).
+column-gap—Esta propiedad define el tamaño del espacio entre las columnas. Acepta un
+valor en cualquiera de las unidades disponibles en CSS, como píxeles y porcentaje.
+columns—Esta propiedad nos permite declarar los valores de las propiedades columncount y column-width al mismo tiempo.
+*/
+
+#articulonoticias {
+    width: 580px;
+    padding: 10px;
+    border: 1px solid;
+    column-count: 2;
+    column-gap: 20px;
+}
