@@ -1,0 +1,16 @@
+/*
+float—Esta propiedad permite a un elemento flotar hacia un lado u otro, y ocupar el
+espacio disponible, incluso cuando tiene que compartir la línea con otro elemento. Los
+valores disponibles son none (el elemento no flota), left (el elemento flota hacia la
+izquierda) y right (el elemento flota hacia la derecha).
+
+clear—Esta propiedad restaura el flujo normal del documento, y no permite que el
+elemento siga flotando hacia la izquierda, la derecha o ambos lados. Los valores
+disponibles son none, left, right, y both (ambos).
+
+*/
+
+section img {
+    float: left;
+    margin: 30px 40px;
+    }

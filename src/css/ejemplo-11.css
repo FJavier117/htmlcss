@@ -33,43 +33,57 @@ mismo tiempo.
 */
 
 header {
+
     margin: 30px;
     padding: 15px;
     text-align: center;
     background-color: #CCCCCC;
-    }
-    #titulo1 {
+
+}
+
+#titulo1 {
+
     font: bold 26px Verdana, sans-serif;
-    }
 
-    #cabecera2 {
-        margin: 30px;
-        padding: 15px;
-        text-align: center;
-        background-image: url("/ejemplosconcss/src/img/ejemplo.png");
-        }
-        #titulo2 {
-        font: bold 26px Verdana, sans-serif;
-        color: ghostwhite;
-        }
+}
 
-        #cabecera3 {
-            margin: 30px;
-            padding: 15px;
-            text-align: center;
-            background-image: url("/ejemplosconcss/src/img/ejemplo.png");
-            background-repeat: repeat-y;
-            }
-            #titulo3 {
-            font: bold 26px Verdana, sans-serif;
-            }
+#cabecera2 {
 
-            #cabecera4 {
-                margin: 30px;
-                padding: 15px;
-                text-align: center;
-                background: #CCCCCC url("/ejemplosconcss/src/img/ejemplo.png") repeat-y;
-                }
-                #titulo4 {
-                font: bold 26px Verdana, sans-serif;
-                }
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-image: url("/ejemplosconcss/src/img/ejemplo.png");
+
+}
+
+#titulo2 {
+
+    font: bold 26px Verdana, sans-serif;
+    color: ghostwhite;
+
+}
+
+#cabecera3 {
+
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background-image: url("/ejemplosconcss/src/img/ejemplo.png");
+    background-repeat: repeat-y;
+
+}
+
+#titulo3 {
+    font: bold 26px Verdana, sans-serif;
+}
+
+#cabecera4 {
+    margin: 30px;
+    padding: 15px;
+    text-align: center;
+    background: #CCCCCC url("/ejemplosconcss/src/img/ejemplo.png") repeat-y;
+}
+
+#titulo4 {
+    font: bold 26px Verdana, sans-serif;
+}

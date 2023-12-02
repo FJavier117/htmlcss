@@ -84,7 +84,7 @@ border-right para definir los valores de cada borde de forma independiente.
     padding: 15px;
     text-align: center;
     border: 2px solid;
-    background-color: bisque;
+    background-color: #FF4081;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -122,7 +122,7 @@ border-right para definir los valores de cada borde de forma independiente.
     margin: 30px;
     padding: 15px;
     text-align: center;
-    border: 1px solid #999999;
+    border: 1px solid #FF4081;
     outline: 2px dashed #000000;
     outline-offset: 15px;
 }

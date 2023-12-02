@@ -1,0 +1,21 @@
+/*
+Block (bloque) e Inline (en línea).
+La diferencia principal entre estos dos tipos es que los elementos Block 
+tienen un tamaño personalizado y generan saltos de línea, mientras que los 
+elementos Inline tienen un tamaño determinado por su contenido y no generan 
+saltos de línea.
+
+Los elementos Block son apropiados para crear columnas y secciones en una página web, 
+mientras que los elementos Inline son adecuados para
+representar contenido. Esta es la razón por la que los elementos que definen la estructura de
+un documento, como <section>, <nav>, <header>, <footer>, o <div>, se declaran como
+elementos Block por defecto, y otros como <span>, <strong>, o <em>, que representan el
+contenido de esos elementos, se declaran como elementos Inline.
+
+*/
+
+header, section, main, footer, aside, nav, article, figure, figcaption
+{
+display: block;
+}
+
